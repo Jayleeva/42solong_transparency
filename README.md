@@ -3,7 +3,7 @@ Version alternative de so_long qui gère la transparence (non soumise à évalua
 # Fichiers gérant la transparence
 Créés par Tywael en mars 2025
 
-Ses fonctions font appel à la librairie X11 déjà utilisée par la minilibx, ce qui met cette version de so_long dans une zone grise; c'est pourquoi elle n'a pas été soumise à évaluation.
+Ses fonctions font appel à la librairie X11 déjà utilisée par la minilibx, ce qui met cette version de so_long dans une zone grise; c'est pourquoi elle n'a pas été soumise à évaluation. Sachant que je ne la ferai pas évaluer, je me suis permise plus de liberté concernant la norme: **en l'état, le projet ne passe pas la norminette!**
 
 # Quels changements par rapport à la version sans transparence?
 1. La transparence permet de superposer des images: il ne faut donc pas oublier de placer un fond d'abord à chaque fois qu'on veut afficher une image avec du transparent par-dessus. Dans ce projet, cela implique de remettre systématiquement du sol, un collectible ramassé ou une sortie (en fonction de la case) avant d'afficher le joueur.
